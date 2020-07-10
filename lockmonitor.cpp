@@ -391,8 +391,8 @@ void  LockMonitor::SMS_try_to_send_slot() {//判断是否到时间了，检测�
 void LockMonitor::capture_one_img()              //识别
 {
 
-    cv::VideoCapture vcp_310=cv::VideoCapture("rtsp://admin:admin12345@222.195.151.251/Streaming/Channels/3001");
-    cv::VideoCapture vcp_317=cv::VideoCapture("rtsp://admin:admin12345@222.195.151.251/Streaming/Channels/2901");
+    cv::VideoCapture vcp_310=cv::VideoCapture("you rtsp address");
+    cv::VideoCapture vcp_317=cv::VideoCapture("you rtsp address");
     //    dia_progress->show();
 
     //dia_progress.exec();
